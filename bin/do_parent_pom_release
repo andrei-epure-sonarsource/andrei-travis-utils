@@ -44,4 +44,4 @@ fi
 # Notify Burgr
 
 RELEASE_DATETIME=`date --utc +%FT%TZ`
-notifyBurgr "release" "release" "$ARTIFACT_URL" "$RELEASE_DATETIME" "$RELEASE_DATETIME"
+notify_burgr "release" "release" "$ARTIFACT_URL" "$RELEASE_DATETIME" "$RELEASE_DATETIME"
